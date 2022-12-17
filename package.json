@@ -1,5 +1,5 @@
 {
-  "name": "inline-source-map",
+  "name": "@noyobo/inline-source-map",
   "version": "0.6.2",
   "description": "Adds source mappings and base64 encodes them, so they can be inlined in your generated file.",
   "main": "index.js",
@@ -10,6 +10,10 @@
     "test-14": "nave use 14 npm run test-main",
     "test-all": "npm run test-main && npm run test-10 && npm run test-12 && npm run test-14" ,
     "test": "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
