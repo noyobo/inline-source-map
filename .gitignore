@@ -16,3 +16,4 @@ npm-debug.log
 tmp
 .nyc_output/
 yarn.lock
+.idea
